@@ -8,7 +8,7 @@ There are no plugin settings.
 
 ## Install
 
-Download `stop_asking.plugin`, import it through ExteraGram's plugin installer, enable **Stop Asking!**, and reopen the chat if the call menu was already open.
+Download [`stop_asking.plugin` from the latest release](https://github.com/LYzmin41/stop-asking-exteragram/releases/latest), import it through ExteraGram's plugin installer, enable **Stop Asking!**, and reopen the chat if the call menu was already open.
 
 The source is `no_call_confirmation.py`. The `.plugin` file contains the same Python code with the extension required for catalog submission.
 
@@ -17,4 +17,4 @@ The source is `no_call_confirmation.py`. The `.plugin` file contains the same Py
 - ExteraGram `12.9.0` or newer
 - Plugin SDK `1.4.4.3` or newer
 
-The hook was derived from the ExteraGram `12.9.0` APK and should be retested after an app update if the call implementation changes.
+The hook was derived from and used on ExteraGram `12.9.0`. It should be retested after an app update if the call implementation changes.
